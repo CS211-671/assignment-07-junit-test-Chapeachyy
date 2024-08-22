@@ -9,7 +9,7 @@ class StudentListTest {
 
     @Test
     @DisplayName("Add and Find Student In StudentList")
-    public void studentAddAndFindStudentInStudentList() {
+    public void testAddAndFindStudentInStudentList() {
         StudentList studentList = new StudentList();
         studentList.addNewStudent("6610405913","Tungme");
         studentList.addNewStudent("6610402221","Thing",100);
@@ -23,7 +23,7 @@ class StudentListTest {
 
     @Test
     @DisplayName("Add Score To Student")
-    public void studentAddScore() {
+    public void testAddScore() {
         StudentList studentList = new StudentList();
         studentList.addNewStudent("6610405913","Tungme");
         studentList.addNewStudent("6610402221","Thing",100);
@@ -38,7 +38,7 @@ class StudentListTest {
 
     @Test
     @DisplayName("View Student Grade")
-    public void studentViewGrade() {
+    public void testViewGrade() {
         StudentList studentList = new StudentList();
         studentList.addNewStudent("6610405913","Tungme");
         studentList.addNewStudent("6610402221","Thing",100);
@@ -52,7 +52,7 @@ class StudentListTest {
 
     @Test
     @DisplayName("View Student Grade If Student Don't Exist")
-    public void studentViewGradeDoNotExist() {
+    public void testViewGradeDoNotExist() {
         StudentList studentList = new StudentList();
         studentList.addNewStudent("6610405913","Tungme");
         studentList.addNewStudent("6610402221","Thing",100);
